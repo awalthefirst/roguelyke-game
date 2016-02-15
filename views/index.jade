@@ -1,5 +1,24 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container
+    .text-center
+      img(src='blocks/page.png')
+      h1.text-center RogueLyke Game Screen Shot
+    .text-center
+      ol(style="list-style-position: inside")
+        li level - current gameplay level
+        li experience - kill blobs(8) to gain more and  
+          | to move onto next level
+        li healthBar - very obvious!  0 health you die & maximum health is 100
+        li heart - increase your health 
+        li weapon shot - press 'space bar' to shoot
+        li spike - avoid this if *possible 
+        li character - use arrow keys to control him
+        li blob - enemy shoot it to get xp points 
+          
+       h2 remember to press spacebar to shoot
+       br
+       a.btn.btn-primary(href="/play") ready! play 
+       br
+       br

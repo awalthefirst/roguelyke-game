@@ -3,12 +3,12 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'roguelike' });
+  res.render('index', { title: 'roguelyke' });
 });
 
 
 router.get('/play', function(req, res, next) {
-  res.render('play', { title: 'rogue js' });
+  res.render('play', { title: 'roguelyke' });
 });
 
 module.exports = router;
